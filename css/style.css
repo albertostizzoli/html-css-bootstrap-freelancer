@@ -17,10 +17,11 @@ header{
 
 .start{
     padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 .portfolio{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .about{
@@ -49,7 +50,11 @@ img{
     margin-bottom: 15px;
 }
 
-.card-text{
-    font-size: 20px;
+.card-img{
+    width: auto;
+}
+
+h1{
+    font-size: 35px;
     padding-bottom: 30px;
 }
