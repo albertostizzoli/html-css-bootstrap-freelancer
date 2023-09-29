@@ -10,6 +10,15 @@ body{
 
 /*Section*/
 
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.start{
+    padding-bottom: 40px;
+}
+
 .portfolio{
     padding-top: 20px;
 }
@@ -40,4 +49,7 @@ img{
     margin-bottom: 15px;
 }
 
-
+.card-text{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
