@@ -8,6 +8,14 @@ body{
     background-color: rgb(0, 175, 131);
 }
 
+.my-bg-2{
+    background-color: rgb(0, 76, 162);
+}
+
+.my-bg-3{
+    background-color: rgb(2, 40, 83);
+}
+
 /*Section*/
 
 header{
@@ -30,6 +38,10 @@ header{
     padding-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.location{
+    padding-top: 20px;
 }
 
 /*Accessori*/
@@ -56,5 +68,25 @@ img{
 
 h1{
     font-size: 35px;
+    padding-bottom: 30px;
+}
+
+i .fa-brands{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    color: rgb(0, 175, 131);
+}
+
+footer{
+    padding-top: 30px;
     padding-bottom: 30px;
 }
