@@ -4,5 +4,7 @@ body{
 
 .my-bg{
     background-color: rgb(0, 175, 131);
+    border: 1px solid white;
+    color: white;
 }
 
