@@ -1,3 +1,5 @@
+/*Generali*/
+
 body{
     background-color: #ffffff;
 }
@@ -5,6 +7,22 @@ body{
 .my-bg{
     background-color: rgb(0, 175, 131);
 }
+
+/*Section*/
+
+.portfolio{
+    padding-top: 20px;
+}
+
+.about{
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*Accessori*/
 
 button{
     border: 1px solid white;
@@ -22,12 +40,4 @@ img{
     margin-bottom: 15px;
 }
 
-.portfolio{
-    padding-top: 20px;
-}
 
-.about{
-    margin-top: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
