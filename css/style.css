@@ -5,15 +5,15 @@ body{
 }
 
 .my-bg{
-    background-color: rgb(0, 175, 131);
+    background-color: rgb(26, 188, 156);
 }
 
 .my-bg-2{
-    background-color: rgb(0, 76, 162);
+    background-color: rgb(58, 84, 109);
 }
 
 .my-bg-3{
-    background-color: rgb(2, 40, 83);
+    background-color: rgb(44, 62, 80);
 }
 
 /*Section*/
@@ -52,6 +52,10 @@ button{
     padding: 6px;
 }
 
+.fa-solid{
+    margin-right: 15px;
+}
+
 img{
     width: 100%;
     border-radius: 10px;
@@ -83,7 +87,7 @@ a{
 }
 
 .text{
-    color: rgb(0, 175, 131);
+    color: rgb(26, 188, 156);
 }
 
 footer{
