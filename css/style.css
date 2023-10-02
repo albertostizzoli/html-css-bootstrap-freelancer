@@ -27,38 +27,6 @@ header{
     padding-bottom: 10px;
 }
 
-.start{
-    padding-bottom: 40px;
-    padding-top: 30px;
-}
-
-.portfolio{
-    padding-top: 30px;
-}
-
-.about{
-    margin-top: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.contact-me{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.location{
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-}
-
-.web{
-    margin-bottom: 30px;
-}
-
 /*Accessori*/
 
 .star::after, .star::before{
@@ -120,7 +88,6 @@ img{
 .card-img{
     width: auto;
 }
-
 
 i .fa-brands{
     display: flex;
