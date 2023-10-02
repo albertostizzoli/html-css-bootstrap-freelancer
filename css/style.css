@@ -16,17 +16,6 @@ body{
     background-color: rgb(44, 62, 80);
 }
 
-.my-container-small{
-    max-width: 350px;
-}
-
-/*Section*/
-
-header{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 /*Accessori*/
 
 .star::after, .star::before{
@@ -34,7 +23,7 @@ header{
     display: block;
     width: 15%;
     height: 3px;
-    margin: 0 10px;
+    margin: 5px 10px;
     background-color: white;
 }
 
@@ -43,7 +32,7 @@ header{
     display: block;
     width: 15%;
     height: 3px;
-    margin: 0 10px;
+    margin: 5px 10px;
     background-color: black;
 }
 
