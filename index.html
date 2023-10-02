@@ -23,29 +23,23 @@
     <!-- inizio contenuto-->
     <main>
         <section class="my-bg text-light start">
-            <div class="container text-center">
+            <div class="container text-center text-uppercase">
                 <div class="card-img">
                     <img src="img/avatar.svg" style="width: 150px; height: 150px;" alt="Avatar">
-                </div>
-                <div class="card-text">
-                    <h1>START BOOTSTRAP</h1>
-                </div>
-                <div class="row">
-                    <div class="col-4 col-md-4 col-lg-4">
-                        GRAPHIC ARTIST
+                    <h1 class="display-3 fw-bold">START BOOTSTRAP</h1>
+                    <div class="star d-flex justify-content-center align-items-center mb-4">
+                        <i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="col-4 col-md-4 col-lg-4">
-                        WEB DESIGNER
-                    </div>
-                    <div class="col-4 col-md-4 col-lg-4">
-                        ILLUSTRATOR
-                    </div>
+                    <h4>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</h4>
                 </div>
             </div>
         </section>
         <section class="portfolio">
             <div class="container text-center">
-                <h2>PORTFOLIO</h2>
+                <h2 class="display-6 fw-bold">PORTFOLIO</h2>
+                <div class="stars d-flex justify-content-center align-items-center mb-4">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card-image">
@@ -82,16 +76,19 @@
         </section>
         <section class="my-bg text-light text-center about">
             <div class="container">
-                <h2>ABOUT</h2>
+                <h2 class="display-6 fw-bold">ABOUT</h2>
+                <div class="star d-flex justify-content-center align-items-center mb-4">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-6 col-lg-6 text-start">
                         <p>Freelancer is a free bootstrap theme created by Start Bootstrap.
                             The download includes the complete source files including HTML,
                             CSS, and Javascript as well as optional LESS stylesheets for
                             easy customization.
                         </p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-6 col-lg-6 text-start">
                         <p>Whether you're a student looking to a showcase your work, a
                             professional looking to attract clients, or a graphic artist
                             looking to share your projects, this template is the perfect
@@ -99,28 +96,31 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="my-bg "><i class="fa-solid fa-download"></i>Download</button>
+                <button type="button" class="my-bg"><i class="fa-solid fa-download"></i>Download</button>
             </div>
         </section>
         <section>
             <div class="container text-center contact-me">
-                <h2>CONTACT ME</h2>
+                <h2 class="dipslay-6 fw-bold">CONTACT ME</h2>
+                <div class="stars d-flex justify-content-center align-items-center mb-4">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <form>
                     <div class="mb-3 text-start">
-                        <label for="name" class="form-label"><strong>Name</strong></label>
-                        <input type="text" class="form-control border-top-0 border-end-0 border-start-0" id="name" required>
+                        <input type="text" placeholder="Name"
+                            class="form-control border-top-0 border-end-0 border-start-0" required>
                     </div>
                     <div class="mb-3 text-start">
-                        <label for="exampleInputEmail1" class="form-label"><strong>Email Address</strong></label>
-                        <input type="email" class="form-control border-top-0 border-end-0 border-start-0" id="exampleInputEmail1" required>
+                        <input type="email" placeholder="E-mail Address"
+                            class="form-control border-top-0 border-end-0 border-start-0" required>
                     </div>
                     <div class="mb-3 text-start">
-                        <label for="phone-number" class="form-label"><strong>Phone Number</strong></label>
-                        <input type="text" class="form-control border-top-0 border-end-0 border-start-0" id="phone-number" required>
+                        <input type="text" placeholder="Phone Number"
+                            class="form-control border-top-0 border-end-0 border-start-0" required>
                     </div>
                     <div class="mb-3 text-start">
-                        <label for="exampleFormControlTextarea1" class="form-label"><strong>Message</strong></label>
-                        <textarea class="form-control border-top-0 border-end-0 border-start-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control border-top-0 border-end-0 border-start-0" rows="6"
+                            placeholder="Message"></textarea>
                     </div>
                 </form>
                 <button type="submit" class="my-bg">Send</button>

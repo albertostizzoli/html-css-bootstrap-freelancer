@@ -61,6 +61,24 @@ header{
 
 /*Accessori*/
 
+.star::after, .star::before{
+    content: "";
+    display: block;
+    width: 15%;
+    height: 3px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.stars::after, .stars::before{
+    content: "";
+    display: block;
+    width: 15%;
+    height: 3px;
+    margin: 0 10px;
+    background-color: black;
+}
+
 button{
     border: 1px solid white;
     color: white;
@@ -79,16 +97,30 @@ img{
 .card-image{
     margin-top: 15px;
     margin-bottom: 15px;
+    position: relative;
+}
+
+.card-image:hover::after{
+    cursor: pointer;
+    content: "+";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 6em;
+    font-weight: bold;
+    background-color: rgba(0, 255, 0, 0.5);
+    color: white;
 }
 
 .card-img{
     width: auto;
 }
 
-h1{
-    font-size: 35px;
-    padding-bottom: 30px;
-}
 
 i .fa-brands{
     display: flex;
